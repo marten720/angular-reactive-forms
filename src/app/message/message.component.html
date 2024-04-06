@@ -1,0 +1,8 @@
+<div class="message-container" [ngClass]="{
+        'default-message': type === 'default',
+        'info-message': type === 'info',
+        'error-message': type === 'error',
+        'success-message': type === 'success'
+      }">
+        {{ text }}
+      </div>

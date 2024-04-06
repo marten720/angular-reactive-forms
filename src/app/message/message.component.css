@@ -1,0 +1,23 @@
+:host {
+  display: block; /* Ensure that styles only apply to this component */
+  padding-bottom: 10px; /* Add padding around the entire component */
+}
+
+.message-container {
+  color: white;
+  padding: 10px;
+  background-color: transparent; /* Set background color to transparent by default */
+  border-radius: 4px;
+}
+
+.info-message {
+  background-color: #2196f3; /* Apply background color for info messages */
+}
+
+.error-message {
+  background-color: #f44336; /* Apply background color for error messages */
+}
+
+.success-message {
+  background-color: #4caf50; /* Apply background color for success messages */
+}
