@@ -1,27 +1,38 @@
-# WisercatForms
+# Frontend Test Work Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+This project is a test work for creating a form using Angular reactive forms. The form includes fields for Name, Surname, Email, and Working experience in months. It also implements various validations such as required fields, email validation, and custom validation for the working experience field.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+    - Create a form using Angular reactive forms.
+    - Fields: Name, Surname, Email, Working experience in months.
+    - Validation for required fields and email format.
+    - Custom validator for working experience field to check if it's a number and allows specifying the number of digits after the comma.
+    - Display error text under the form fields for invalid input.
+    - Buttons for Submit and Reset.
+    - Show message on top of the form when the form is not valid upon submission.
+    - Display success message upon successful form submission.
+    - Clear all inputs and remove error messages upon clicking the Reset button.
+    - Reusable message component with customizable text and type (info, error, success).
+    - Different background colors for different message types: info, error, success.
+    - Error messages appear/disappear on blur (when input is not in focus anymore).
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    - Clone the repository.
+    - Run npm install to install dependencies.
+    - Run ng serve to start the development server.
+    - Navigate to http://localhost:4200/ in your browser to view the form.
 
-## Build
+## Deployment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To deploy the project, follow these steps:
 
-## Running unit tests
+    - Create a GitHub repository.
+    - Push your code to the repository.
+    - Enable GitHub Pages in the repository settings and choose the master branch (or any other branch you prefer) as the source for deployment.
+    - Access your hosted site using the provided URL.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## About
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project was created as a test work for frontend development using Angular reactive forms. It demonstrates various features and best practices for form validation and message handling in Angular applications.
